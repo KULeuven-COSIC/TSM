@@ -6,5 +6,5 @@ Please refer to README files present in the subfolders for more information.
 
 # Publication
 
-D. Kumar S. V., S. Dhooghe, J. Balasch, B. Gierlichs, I. Verbauwhede "Time Sharing - A Novel Approach to Low-Latency Masking" IACR Transactions on Cryptographic Hardware and Embedded Systems (TCHES) 2024, Volume 3. [update link](http://example.com)
+D. Kumar S. V., S. Dhooghe, J. Balasch, B. Gierlichs, I. Verbauwhede "Time Sharing - A Novel Approach to Low-Latency Masking" IACR Transactions on Cryptographic Hardware and Embedded Systems (TCHES) 2024, Volume 3. [to appear](http://example.com)
 
