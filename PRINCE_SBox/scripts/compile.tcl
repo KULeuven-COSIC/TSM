@@ -26,7 +26,7 @@ create_clock clk -period 10
 
 check_design > check.log
 
-# The "set_dont_touch" constraint can be removed without affecting the outcome of SILVER for TSM
+# The "set_dont_touch" constraint can be removed without affecting the outcome of SILVER for TSM, and without affecting area results.
 set_dont_touch [get_nets {*}]
 
 # Compile netlist
