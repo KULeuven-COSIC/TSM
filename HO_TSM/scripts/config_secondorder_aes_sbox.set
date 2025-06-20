@@ -1,0 +1,100 @@
+max_no_of_threads
+16
+
+no_of_groups % number of groups to conduct the test, e.g., fixed vs. fixed, fixed vs. random, etc.
+2
+
+64'b$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+64'b0000000000000000000000000000000000000000000000000000000000000000
+
+clock_signal_name    % name of the clock signal
+clk
+
+max_clock_cycle   % maximum number of clock cycles per run before checking the end_condition
+5
+
+no_of_initial_inputs   % number of primary inputs during the initialization
+3
+
+no_of_initial_clock_cycles   % number of clock cycles to initiate the run (start of encryption)
+1
+
+[7:0] \sbox_input_share1 group_in0[7:0]
+[7:0] \sbox_input_share2 group_in1[7:0]
+[7:0] \sbox_input_share3 group_in2[7:0]
+
+no_of_always_random_inputs
+3
+
+[54:1] \rand_bit_cycle1
+[60:1] \rand_bit_cycle2
+[24:1] \rand_bit_cycle3
+
+end_condition    
+ClockCycles 5
+
+end_wait_cycles   % number of clock cycles to wait after the end_condition 
+0
+
+no_of_test_clock_cycles
+1
+
+1-5
+
+minimize_probe_sets
+no
+
+remove_full_probing_sets
+no
+
+no_of_entries_in_report
+10
+
+max_distance_multivariate
+10
+
+effect_size
+0.1
+
+no_of_outputs
+3
+
+[7:0] \output_sbox_share1
+[7:0] \output_sbox_share2
+[7:0] \output_sbox_share3
+
+expected_output
+
+8'h$$
+8'h63
+
+
+order_of_test
+2
+
+multivariate_test
+yes
+
+transitional_leakage
+no
+
+compact_distributions
+yes % Compact Mode
+
+
+
+no_of_simulations
+1000000000
+
+no_of_step_simulations
+200000
+
+no_of_step_write_results
+10000000
+
+
+probes_include
+all
+
+probes_exclude
+0
