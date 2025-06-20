@@ -25,3 +25,14 @@ Each folder includes:
 1. Kumar S. V., D., Dhooghe, S., Balasch, J., Gierlichs, B., & Verbauwhede, I. (2024). Time Sharing – A Novel Approach to Low-Latency Masking. *IACR Transactions on Cryptographic Hardware and Embedded Systems*, *2024*(3), 249–272. [https://doi.org/10.46586/tches.v2024.i3.249-272](https://doi.org/10.46586/tches.v2024.i3.249-272)
 
 2. Kumar S. V., D., Dhooghe, S., Balasch, J., Gierlichs, B., & Verbauwhede, I. (2025). Higher-Order Time Sharing Masking. *IACR Transactions on Cryptographic Hardware and Embedded Systems*, *2025*(2), 235–267. [https://doi.org/10.46586/tches.v2025.i2.235-267](https://doi.org/10.46586/tches.v2025.i2.235-267)
+
+---
+
+## License
+
+This repository is licensed under the MIT License. See the `LICENSE` file for details.
+
+If you use this material for scientific purposes, please cite both this repository and the corresponding publications:
+
+- *Time Sharing – A Novel Approach to Low-Latency Masking*, TCHES 2024  
+- *Higher-Order Time Sharing Masking*, TCHES 2025
