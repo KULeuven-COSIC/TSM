@@ -1,0 +1,31 @@
+set designer  dshanmug 
+set company   cosic
+
+set sh_command_log_file ds_dcshell.log
+#[clock format $systemTime -format %H:%M:%S]
+
+set init_setup 0
+
+# Nangate45 
+set nang45_path NangateOpenCellLibrary_PDKv1_3_v2010_12/Liberty/CCS
+set nang45 ${nang45_path}/NangateOpenCellLibrary.db
+
+
+# UMC180
+set umc180_path GII
+
+set umc180_bc ${umc180_path}/fsa0a_c_sc_bc.db
+set umc180_tc ${umc180_path}/fsa0a_c_sc_tc.db
+set umc180_wc ${umc180_path}/fsa0a_c_sc_wc.db
+
+
+
+# search path 
+set search_path "${search_path} ${nang45_path} ${umc180_path}"
+
+# # Default libraries
+set target_library      ${nang45}
+set link_library        ${nang45}
+
+
+
