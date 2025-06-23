@@ -26,7 +26,19 @@ Each folder includes:
 
 2. Kumar S. V., D., Dhooghe, S., Balasch, J., Gierlichs, B., & Verbauwhede, I. (2025). Higher-Order Time Sharing Masking. *IACR Transactions on Cryptographic Hardware and Embedded Systems*, *2025*(2), 235–267. [https://doi.org/10.46586/tches.v2025.i2.235-267](https://doi.org/10.46586/tches.v2025.i2.235-267)
 
+
+## Artifact Evaluation
+
+Both supplementary packages were submitted to the CHES Artifact Evaluation process and successfully passed:
+
+* **TSM**, evaluated as part of CHES 2024, was reviewed and confirmed functional.
+  [https://artifacts.iacr.org/tches/2024/a20/](https://artifacts.iacr.org/tches/2024/a20/)
+
+* **HO-TSM**, evaluated as part of CHES 2025, was also reviewed and confirmed functional.
+  *(Link will be added once available.)*
+
 ---
+
 
 ## License
 
