@@ -91,7 +91,7 @@ The structure above outlines the module dependencies and highlights the relation
 
 The Verilog files are synthesized using the [NanGate 45nm Open Cell Library](https://www.nangate.com) with Synopsys DC Compiler v2021.06-SP3, as outlined in the paper.
 
-- The empty folder `NangateOpenCellLibrary_PDKv1_3_v2010_12` is reserved for the NanGate Open Cell Library files. Due to the large size of the library, its contents are not included in this artifact. The library is publicly available at the following GitHub repository: [https://github.com/vmarribas/VerMFi](https://github.com/vmarribas/VerMFi), corresponding to the [paper](https://ieeexplore.ieee.org/document/8617841) by Arribas et al. Download the NanGate folder from this repository and replace the empty folder in this artifact before proceeding.
+- The empty folder `NangateOpenCellLibrary_PDKv1_3_v2010_12` is reserved for the NanGate Open Cell Library files. Due to the large size of the library, its contents are not included in this repository. The library is publicly available at the following GitHub repository: [https://github.com/vmarribas/VerMFi](https://github.com/vmarribas/VerMFi), corresponding to the [paper](https://ieeexplore.ieee.org/document/8617841) by Arribas et al. Download the NanGate folder from this repository and replace the empty folder in this repository before proceeding.
 
 - The synthesis script, [`compile.tcl`](./compile.tcl), serves as a reference for generating netlists for formal verification, area estimation, and related tasks.
 
@@ -102,7 +102,7 @@ Before running the synthesis, ensure the following parameters are correctly set 
 
 1. **Ensure write permissions**
 
-   From the artifact root, run:
+   From the repository root, run:
 
    ```bash
    chmod -R a+rwX .
@@ -145,7 +145,7 @@ dc_shell -f compile.tcl
 During netlist generation, please note the following:
 
 - For **SILVER**: The `ungroup -all -flatten` command should be commented out, as it is not required for formal verification.
-- For **PROLEAD**: The same command **must be included**, at least for the version used in this artifact, to ensure the tool correctly processes the netlist.
+- For **PROLEAD**: The same command **must be included**, at least for the version used in this repository, to ensure the tool correctly processes the netlist.
 
 
 
