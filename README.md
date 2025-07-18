@@ -35,7 +35,7 @@ Both supplementary packages were submitted to the CHES Artifact Evaluation proce
   [https://artifacts.iacr.org/tches/2024/a20/](https://artifacts.iacr.org/tches/2024/a20/)
 
 * **HO-TSM**, evaluated as part of CHES 2025, was also reviewed and confirmed functional.
-  *(Link will be added once available.)*
+  [https://artifacts.iacr.org/tches/2025/a15/](https://artifacts.iacr.org/tches/2025/a15/)
 
 ---
 
